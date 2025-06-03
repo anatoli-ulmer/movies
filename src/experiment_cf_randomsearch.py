@@ -23,7 +23,7 @@ run_name = "run_2"
 artifact_path = "movies_cf_als"
 
 
-# Import Database
+# Import Databasez
 ds_path = os.path.join(PROJECT_DIR, "data/raw/")
 ds_name = "ml-latest-small"
 df_ratings = pd.read_csv(os.path.join(ds_path, ds_name, "ratings.csv"))
